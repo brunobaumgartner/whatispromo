@@ -1,0 +1,35 @@
+# Variáveis de ambiente — NUNCA commitar
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Logs
+airflow/logs/
+*.log
+
+# Dependências Python
+raspador/venv/
+bot_telegram/venv/
+*.egg-info/
+
+# Laravel (Fase 4)
+painel/vendor/
+painel/node_modules/
+painel/.env
+painel/public/hot
+painel/public/build/
+painel/storage/logs/
+painel/storage/framework/cache/
+painel/storage/framework/sessions/
+painel/storage/framework/views/
+
+# Evolution API
+evolution/instances/
+
+# Sistema
+.DS_Store
+Thumbs.db
